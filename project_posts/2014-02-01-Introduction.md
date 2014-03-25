@@ -1,6 +1,6 @@
 Metamorph is a continuation of my previous explorations into artificial life, procedural animation, drawing, and how these ideas intersect. 
 
-##Introduction
+##Manifestation
 
 My last foray into these ideas was called [Manifest](http://classes.design.ucla.edu/Spring05/152BC/projects/chang/manifest.htm "Manifest"), way back in 2005, shortly before my graduation from UCLA Design Media Arts under the tutelage of Casey Reas. 
 
