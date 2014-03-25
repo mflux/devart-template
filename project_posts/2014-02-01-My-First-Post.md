@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=JBgG_VSP7f8
 
 This was how Manifest came into being.
 
-![Manifest](../project_images/manifestSS03?raw=true "Manifest")
+![Manifest](../project_images/manifestSS03.jpg?raw=true "Manifest")
 
 It allowed the user to draw lines, the length of which generated a creature. Loops would generate flora, while long winding lines would end up creating a beefy giant creature that could barely fit on-screen.
 
