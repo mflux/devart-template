@@ -2,21 +2,21 @@
     "technologies": {
         "apis": [
             "cloudsdk",
-            "appengine",
+            "appengine"
         ],
         "platforms": [
             "windows",
             "ios",
-            "linux",
+            "linux"
         ],
         "toolkits": [
             "WebGL",
             "threejs",
-            "dat.gui",
+            "dat.gui"
         ]
     },
     "themes": [
         "drawing",
-        "artificial life",
+        "artificial life"
     ]
 }
