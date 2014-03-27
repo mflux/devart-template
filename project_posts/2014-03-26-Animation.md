@@ -1,5 +1,7 @@
 ##Steering
 
+![Head Motion](project_images/boxmotion.gif?raw=true "Head Motion")
+
 Ah yes the classic [Craig Reynolds](http://www.red3d.com/cwr/steer/gdc99/ "Craig Reynolds") papers come to use here.
 
 Generally speaking, steering is the idea of having an entity derive motion from both it's desired behavior (eg path determination) and how the physics interact with this behavior.
@@ -51,11 +53,11 @@ To get the head rotated correctly to its path of motion, we do something like th
 head.rotation.z = Math.atan2( -head.forward.y, -head.forward.x );
 ```
 
-![Head Motion](project_images/boxmotion.gif?raw=true "Head Motion")
-
 ##Serpentine Motion
 
 I've thought a lot about how to animate the snake-like coil of a body. A lot of choices ended up not being satisfactory, for example, a simple spring-system which generally causes a lot of sharp turns when the movement speed is insufficient. Ultimately, I wanted the creature body to end up feeling like a solid, and maintain some kind of organic rhythm.
+
+![Train of Boxes](project_images/chainlink.gif?raw=true "Train of Boxes")
 
 The solution was two-fold, and it looked something like this:
 
@@ -121,8 +123,6 @@ if(dist > 40){
 The first part, lenX and lenY calculates the distance between the first segment to the next segment of the creature body. We allow 0-40 length of distance so that the creature may appear elastic, and not forced to be rigid.
 
 Past 40 length, we'll constrain it to 40, but maintain the angle that the two joints held. This causes a chain-link behavior, kind of like a train with cars following it.
-
-![Train of Boxes](project_images/chainlink.gif?raw=true "Train of Boxes")
 
 The next part of the code is slightly more complicated but is the "magic sauce" for motion here.
 
