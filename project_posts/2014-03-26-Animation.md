@@ -13,7 +13,7 @@ head.steer.x += (-1 + Math.random() * 2) * 0.2;
 head.steer.y += (-1 + Math.random() * 2) * 0.2;
 ```
 
-This creates, on the head of our creature, a randomized addition to the 'steer' vector. It's just random, there's no noise or anything like that, although that would be an improvement.
+This creates, on the head of our creature, a randomized addition to the 'steer' vector. It's just random, there's no Perlin noise or anything like that, although that would be an improvement.
 
 Next, we do a bit of vector math:
 
