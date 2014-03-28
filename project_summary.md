@@ -16,6 +16,8 @@ Prototypes:
 [View Source](http://drawcreature.appspot.com/js/metamorph.js)
 
 ## Images
+![Drawing Process](project_images/drawingprocess.gif?raw=true)
+
 ![Swimming](project_images/swimming6.gif?raw=true)
 
 ![Swimming](project_images/swimming11.gif?raw=true)
@@ -24,6 +26,9 @@ Prototypes:
 
 ![Swimming](project_images/swimming3.gif?raw=true)
 
+![Cover](project_images/cover2.jpg?raw=true)
+
+![Drawn To Life](project_images/drawntolife.gif?raw=true)
 
 [Full Gallery](http://imgur.com/a/wcAvH)
 
