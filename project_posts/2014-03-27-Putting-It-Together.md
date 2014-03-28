@@ -1,4 +1,4 @@
-##Drawn to Life
+## Drawn to Life
 
 ![Drawn to Life](project_images/drawntolife.gif?raw=true "Head Motion")
 
@@ -94,7 +94,7 @@ In all other cases, the head would steer as it normally would, randomizing betwe
 Not the most elegant of solutions, but enough to create an illusion of life.
 
 
-##Wiggle Room
+## Wiggle Room
 
 ![Wiggle Out](project_images/wiggleout.gif?raw=true "Wiggle Out")
 

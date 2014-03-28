@@ -1,11 +1,11 @@
-##The Cloud
+## The Cloud
 Before we wrap up, there is one final, critical step to all of this.
 
 We need to save and load.
 
 The platform I chose for this was Google's Appengine, which has storage. I have no idea what my quota was, and my fetch operations seemed really clumsy and I may or may not run out of quota so this might totally fail when it goes public. But here goes.
 
-##Data Format
+## Data Format
 Remember a few posts back how I insisted on storing just the drawing vertices? This is going to save us here, because we'll be storing the creature's genotype as penstrokes as well as DAT.GUI configuration.
 
 ![Simple Drawing](project_images/simpledrawing.png?raw=true "Simple Drawing")
@@ -122,7 +122,7 @@ var generateCreatureVariant = function( drawnMesh, segmentCount ){
 
 And finally we've added a creature that's loaded from AppEngine to a random location in our world. 
 
-##The Ocean
+## The Ocean
 So now that we can save and load, I've created an AppEngine instance of this project that saves every creature ever drawn. (It's most likely over quota by the time you see it.) By visiting the page it will pull a single creature and spawn 3 of them, and invite you to draw your own.
 
 The variations are quite astounding!
@@ -137,7 +137,7 @@ I'll post the remainder on an [imgur album](http://imgur.com/a/wcAvH) as well as
 
 You can draw your own at [http://drawcreature.appspot.com/](http://drawcreature.appspot.com/)
 
-##Future Work
+## Future Work
 Aside from the obvious technical improvements, such as data format and save/load inefficiencies, there are some areas which I think can be thoroughly improved.
 
 The motion of the organism all remain to be about the same, they're basically the same creatures with different skin. It would be interesting to apply some kind of physics to the drawn lines so that the shapes can bend and stretch. That would 'automatically' make the drawings themselves more meaningful. 
